@@ -1,59 +1,36 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TDD-Ruby
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+> A quick tour of the Test driven development cycle using a single class called Solver.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**The project comes shipped with linters config for ruby, so ensure you have Rubocop**
+**installed on your local environment**
 
+- **To get a local copy of the repository please run the following commands on your terminal:**
+- **$ git clone https://github.com/...**
+- **$ cd ...**
+- **$ git checkout ...**
+- **$ run `bundle install` to couple all dependacies**
+- **$ run `ruby main.rb`**
+- **$ To run a particular ruby file in an irb session it helps to run `irb -r ./file_Name`**
+- **$ For tests run `rspec spec`**
 
-To get a local copy up and running follow these simple example steps.
+👤 **Cyril Iyadi**
 
-### Prerequisites
+- GitHub: [@see-why](https://github.com/see-why)
+- LinkedIn: [C.Iyadi](https://www.linkedin.com/in/cyril-iyadi-83517270/)
 
-### Setup
+👤 **Leonardo Paz**
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Github: [Leonardo Paz](https://github.com/leolpaz)
+- Linkedin: [Leonardo Paz](https://www.linkedin.com/in/leonardolpaz/)
 
 ## 🤝 Contributing
 
@@ -65,12 +42,5 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+- This project is [MIT](./LICENSE) licensed.
