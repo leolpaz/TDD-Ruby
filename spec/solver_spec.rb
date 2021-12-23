@@ -1,3 +1,5 @@
+require_relative './solver'
+
 describe Solver do
   solver = Solver.new
   context 'factorial test' do
@@ -38,6 +40,11 @@ describe Solver do
     it 'returns fizzbuzz when N % 5 == 0 and N % 3 == 0' do
       expect(solver.fizzbuzz(15)).to eql('fizzbuzz')
       expect(solver.fizzbuzz(45)).to eql('fizzbuzz')
+    end
+
+    it 'returns N when N % 5 != 0 and N % 3 != 0' do
+      expect(solver.fizzbuzz(7)).to eql('7')
+      expect(solver.fizzbuzz(13)).to eql('13')
     end
   end
 end
