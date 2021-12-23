@@ -13,9 +13,23 @@ class Solver
 
   def reverse(str)
     new_str = ''
-    str.each do |char|
-      new_str = char + new_str
+    count = 0
+    while count < str.length
+      new_str = str[count] + new_str
+      count += 1
     end
     new_str
+  end
+
+  def factorial(num)
+    count = 1
+    return 1 if [0, 1].include?(num)
+    raise Exception if num.negative?
+
+    while num.positive?
+      count *= num
+      num -= 1
+    end
+    count
   end
 end
