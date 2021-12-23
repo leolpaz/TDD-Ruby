@@ -1,4 +1,4 @@
-require_relative './solver'
+require_relative '../solver'
 
 describe Solver do
   solver = Solver.new
@@ -14,8 +14,8 @@ describe Solver do
     end
 
     it 'throws an exception when the argument is a negative number' do
-      expect(solver.factorial(-1)).to raise_exception
-      expect(solver.factorial(-3)).to raise_exception
+      expect{solver.factorial(-1)}.to raise_exception(Exception)
+      expect{solver.factorial(-3)}.to raise_exception(Exception)
     end
   end
 
